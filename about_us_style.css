@@ -1,0 +1,398 @@
+body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar {
+    padding: 10px 20px;
+    background-color: black;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path stroke="rgba(255,255,255,1)" stroke-width="3" d="M5 7h20M5 15h20M5 23h20" fill="none" stroke-linecap="round"/></svg>');
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #f0f0f0;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-outline-success {
+    border-radius: 20px;
+}   
+
+.about-intro {
+    padding: 50px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.about-intro-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap; 
+}
+
+.about-intro-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    margin-left: 1px;
+}
+
+.about-intro-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-intro h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-intro p {
+    font-size: 18px;
+    color: #666;
+    max-width: 800px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about-vision {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.about-vision-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.about-vision-image {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.about-vision-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-vision-text {
+    flex: 1;
+}
+
+.about-vision-text h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-vision-text p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-story {
+    padding: 50px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-story-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-story-header h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 0;
+}
+
+.about-story-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify; 
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.about-story-content p {
+    font-size: 18px;
+    color: #666;
+    text-align: justify;
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.about-story-image {
+    flex: 1;
+    max-width: 40%;
+}
+
+.about-story-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-team {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-team h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.team-member p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+}
+
+.ceo {
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.fMenuTitle {
+    font-size: 16px;
+}
+
+.fList {
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: left;
+        margin: 5px 0;
+    }
+
+    .about-vision {
+        flex-direction: column;
+    }
+
+    .about-vision-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-vision-image {
+        max-width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-vision-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-story-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-story-content p {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .about-story-image img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLeft {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .footerRight {
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+}
